@@ -14,7 +14,7 @@ const images = [
 ];
 
 const allImg = images.map(({url, alt}) => {
-return `<li class ="galery__list"> <img src = "${url}" alt = "${alt}" width = 420;></li>`
+return `<li> <img src = "${url}" alt = "${alt}" width = 420;></li>`
 });
 
 const ulNode = document.querySelector('.gallery')
