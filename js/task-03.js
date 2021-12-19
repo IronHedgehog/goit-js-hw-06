@@ -22,3 +22,4 @@ const ulNode = document.querySelector('.gallery')
 ulNode.insertAdjacentHTML('afterbegin', allImg.join(""))
 ulNode.style.display = 'flex';
 ulNode.style.justifyContent = 'space-between';
+ulNode.style.listStyle = 'none'
