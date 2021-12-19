@@ -7,7 +7,6 @@
     console.log(inputEl,spanEl)
 
     inputEl.addEventListener('input', onInputChange)
-    spanEl.addEventListener('input', onInputEmpty)
 
 function onInputChange (event) {
     spanEl.textContent = event.currentTarget.value
