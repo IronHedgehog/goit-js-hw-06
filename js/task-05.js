@@ -11,9 +11,7 @@
 
 function onInputChange (event) {
     spanEl.textContent = event.currentTarget.value
-}
-function onInputEmpty (){
-    if(inputEl === ''){
+    if(event.currentTarget.value === ""){
         spanEl.textContent = "Anonymous"
-    } 
+    }
 }
