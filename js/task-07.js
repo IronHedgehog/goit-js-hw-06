@@ -12,3 +12,4 @@ inputFZ.addEventListener('input',onRangeScroll)
 function onRangeScroll () {
     spanText.style.fontSize = inputFZ.value + "px";
 }
+spanText.style.fontSize = inputFZ.value + "px";
