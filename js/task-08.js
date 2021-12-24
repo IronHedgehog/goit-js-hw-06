@@ -12,7 +12,7 @@ const passwordEl = document.querySelector('[type="password"]')
 const buttonEl = document.querySelector('[type="submit"]')
 
 
-formEl.addEventListener('submit',onSubmit,)
+formEl.addEventListener('submit',onSubmit)
 
 function onSubmit (event){
     event.preventDefault();
